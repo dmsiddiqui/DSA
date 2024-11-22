@@ -92,17 +92,13 @@ public class BinaryTreeImplemenation{
         int[] nodeX = {1,2,4,-1,-1,5,-1,-1,3,-1,6};
         int[] nodeY = {1,4,2,-1,-1};
         BinaryTree tree = new BinaryTree();
-
         Node rootX = tree.createTree(nodeX);
         tree.idx=-1;
-        Node rootY = tree.createTree(nodeY);  
-        
+        Node rootY = tree.createTree(nodeY);
         System.out.println(isSubtree(rootX, rootY));
-
 
         // Node root = tree.createTree(nodeX);
         // LevelOrder(root);
-        
         // Node rootX = tree.createTree(nodeX);
         // tree.idx=-1;
         // Node rootY = tree.createTree(nodeY);
